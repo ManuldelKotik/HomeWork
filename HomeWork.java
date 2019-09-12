@@ -1,12 +1,12 @@
-//Домашнее задание. Пункт 1
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 1
 
 public class MainClass {
     public static void main (String() args) {
-
+System.out.println("Hello World!");
     }
 }
 
-//Домашнее задание. Пункт 2
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 2
 
 public class MainClass {
     public static void main (String() args) {
@@ -42,7 +42,7 @@ public class MainClass {
     }
 }
 
-//Домашнее задание. Пункт 3
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 3
 
 public class MainClass {
    public static int calculate(int a, int b, int c, int d) {
@@ -59,7 +59,7 @@ public class MainClass {
         }
     }
 
-//Домашнее задание. Пункт 4
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 4
 
 public class MainClass {
     public static boolean task10and20(int x1, int x2) {
@@ -72,19 +72,19 @@ public class MainClass {
     }
 }
 
-//Домашнее задание. Пункт 5
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 5
 
 public class MainClass {
     public static void isPositiveOrNegative(int x) {
         if (x >= 0) {
-            System.out.println("Положительное");
+            System.out.println("ГЏГ®Г«Г®Г¦ГЁГІГҐГ«ГјГ­Г®ГҐ");
         } else {
-            System.out.println("Отрицательное");
+            System.out.println("ГЋГІГ°ГЁГ¶Г ГІГҐГ«ГјГ­Г®ГҐ");
         }
     }
 }
 
-//Домашнее задание. Пункт 6
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 6
 
 public class MainClass {
     public static boolean isNegative(int x) {
@@ -95,19 +95,19 @@ public class MainClass {
     }
 }
 
-//Домашнее задание. Пункт 7
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 7
 
 public class MainClass {
     public static void greetings(String name) {
-        System.out.println("Привет, " + name + "!");
+        System.out.println("ГЏГ°ГЁГўГҐГІ, " + name + "!");
     }
 }
 
-//Домашнее задание. Пункт 8
+//Г„Г®Г¬Г ГёГ­ГҐГҐ Г§Г Г¤Г Г­ГЁГҐ. ГЏГіГ­ГЄГІ 8
 
 public class MainClass {
     public static void year(int year) {
-        if (!(year % 4 == 0) || ((year % 100 == 0) && !(year % 400 == 0))) System.out.println(year + "не високосный");
-        else System.out.println(year + "високосный");
+        if (!(year % 4 == 0) || ((year % 100 == 0) && !(year % 400 == 0))) System.out.println(year + "Г­ГҐ ГўГЁГ±Г®ГЄГ®Г±Г­Г»Г©");
+        else System.out.println(year + "ГўГЁГ±Г®ГЄГ®Г±Г­Г»Г©");
     }
 }
